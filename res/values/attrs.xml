@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="attr" name="focus_indicator_animation_mag_single">1.2</item>
+    <item type="attr" name="focus_indicator_animation_mag_object">1.3</item>
+    <attr name="forLandscape" format="boolean" />
+    <item type="attr" name="scene_fade_out_delay">2000</item>
+    <item type="attr" name="scene_fade_out_duration">1000</item>
+</resources>

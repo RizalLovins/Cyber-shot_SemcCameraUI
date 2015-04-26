@@ -1,0 +1,595 @@
+Summary for com.sonyericsson.android.camera
+
+
+com.sonyericsson.android.camera.CameraButtonIntentReceiver
+----------------------------
+
+notifyGoogleAnalytics(android.content.Context com.sonyericsson.android.camera.CameraButtonIntentReceiver$IntentKind )
+  Unable to fully structure code
+onReceive(android.content.Context android.content.Intent )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+run()
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonyericsson.android.camera.configuration.ConversationReader
+----------------------------
+
+read(com.sonyericsson.android.camera.configuration.MmsOptions$Builder )
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonyericsson.android.camera.configuration.parameters.Resolution
+----------------------------
+
+getHdrResolution(com.sonyericsson.android.camera.configuration.parameters.Resolution boolean int )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.controller.ControllerMessageHandler
+----------------------------
+
+dispatch(com.sonyericsson.android.camera.controller.ControllerMessage )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.controller.EventDispatcher
+----------------------------
+
+consumedByZoom(android.view.MotionEvent )
+  Exception : java.util.ConcurrentModificationException
+sendCaptureEvent(com.sonyericsson.android.camera.controller.EventAction com.sonyericsson.android.camera.controller.ControllerEventSource )
+  Unable to fully structure code
+updateTouchEventTranslator(com.sonyericsson.android.camera.parameter.Parameters )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+
+
+com.sonyericsson.android.camera.controller.Shooting
+----------------------------
+
+store(byte[] )
+  Unable to fully structure code
+onPictureTaken(byte[] android.hardware.Camera )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.controller.TouchFocusDetector
+----------------------------
+
+onTouch(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.controller.VideoDevice
+----------------------------
+
+pause()
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.device.CameraDevice
+----------------------------
+
+commitParameters()
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.bytecode.analysis.parse.statement.Nop cannot be cast to org.benf.cfr.reader.bytecode.analysis.parse.statement.TryStatement
+joinOpenCameraDeviceTask(boolean )
+  Loose catch block
+joinSetupCameraDeviceTask(boolean )
+  Unable to fully structure code
+open(int )
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.device.CameraDeviceUtil
+----------------------------
+
+call()
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.fastcapturing.CameraDeviceHandler
+----------------------------
+
+openCamera()
+  Exception : java.util.ConcurrentModificationException
+finalizeRecording()
+  Loose catch block
+pauseRecording()
+  Exception : java.util.ConcurrentModificationException
+startRecording(com.sonyericsson.cameracommon.mediasaving.takenstatus.VideoSavingRequest com.sonymobile.cameracommon.media.recorder.RecorderInterface$RecorderListener com.sonyericsson.cameracommon.sound.SoundPlayer )
+  Loose catch block
+stopRecording()
+  Unable to fully structure code
+onPictureTaken(byte[] android.hardware.Camera )
+  Loose catch block
+
+
+com.sonyericsson.android.camera.fastcapturing.FastCapturingActivity
+----------------------------
+
+onKeyUp(int android.view.KeyEvent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[CASE]], but top level block is 3[SWITCH]
+run()
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.fastcapturing.StateMachine
+----------------------------
+
+createVideoSavingRequest(com.sonyericsson.cameracommon.mediasaving.SavingTaskManager$SavedFileType )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+sendEvent(com.sonyericsson.android.camera.fastcapturing.StateMachine$TransitterEvent java.lang.Object[] )
+  Unable to fully structure code
+sendStaticEvent(com.sonyericsson.android.camera.fastcapturing.StateMachine$StaticEvent java.lang.Object[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+handleOnStoreCompleted(java.lang.Object[] )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.fastcapturing.view.FastViewFinder
+----------------------------
+
+changeToPhotoDialogView(com.sonyericsson.android.camera.fastcapturing.view.BaseFastViewFinder$UiComponentKind )
+  Unable to fully structure code
+updateViewFinderCaptureAreaTouchEventHandling(com.sonyericsson.cameracommon.commonsetting.values.TouchCapture com.sonyericsson.android.camera.fastcapturing.view.BaseFastViewFinder$HeadUpDisplaySetupState )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+onModeSelect(java.lang.String )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+
+
+com.sonyericsson.cameracommon.mediasaving.SavingTaskManager
+----------------------------
+
+storeVideo(com.sonyericsson.cameracommon.mediasaving.takenstatus.VideoSavingRequest )
+  Exception : java.util.ConcurrentModificationException
+storeData(java.lang.Exception )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[TRYBLOCK]], but top level block is 16[CATCHBLOCK]
+store(android.net.Uri )
+  Exception : java.util.ConcurrentModificationException
+run()
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.mediasaving.MediaSavingUtil
+----------------------------
+
+convertYuvToJpegOutputStream(android.graphics.YuvImage java.io.OutputStream com.sonyericsson.cameracommon.mediasaving.takenstatus.SavingRequest )
+  Loose catch block
+saveImage(byte[] android.net.Uri android.content.Context )
+  Loose catch block
+saveImage(byte[] java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.sonyericsson.android.camera.util.DebugEventIntruder
+----------------------------
+
+behaviour(java.io.InputStreamReader )
+  Exception : java.util.ConcurrentModificationException
+getEventData(java.io.InputStreamReader )
+  Loose catch block
+getExtraDataDouble(java.io.InputStreamReader )
+  Loose catch block
+getExtraDataLong(java.io.InputStreamReader )
+  Loose catch block
+run()
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonyericsson.android.camera.util.LocalGoogleAnalyticsUtil
+----------------------------
+
+sendView(com.sonyericsson.android.camera.configuration.parameters.CapturingMode boolean )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.util.MemoryAnalyzer
+----------------------------
+
+logMemoryInfo(android.content.Context java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.util.capability.CapabilityList
+----------------------------
+
+<init>(android.content.Context android.content.SharedPreferences )
+  Exception : org.benf.cfr.reader.util.CannotLoadClassException: java/util/List.class - java.io.IOException: No such file
+<init>(android.content.Context android.hardware.Camera$Parameters )
+  Exception : org.benf.cfr.reader.util.CannotLoadClassException: java/util/List.class - java.io.IOException: No such file
+
+
+com.sonyericsson.android.camera.util.capability.ResolutionOptions
+----------------------------
+
+<init>(android.content.Context int int boolean )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.view.FocusRectanglesManager
+----------------------------
+
+changeRectangle(com.sonyericsson.android.camera.configuration.parameters.CapturingMode com.sonyericsson.android.camera.configuration.parameters.FocusMode com.sonyericsson.android.camera.configuration.parameters.SmileCapture )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.view.RotatableImageView
+----------------------------
+
+update()
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.view.TouchArea
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+com.sonyericsson.android.camera.view.settings.SettingController
+----------------------------
+
+onKey(android.view.View int android.view.KeyEvent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[CASE]], but top level block is 3[SWITCH]
+checkValueIsSelectable(com.sonyericsson.android.camera.configuration.ParameterKey com.sonyericsson.android.camera.parameter.ParameterManager com.sonyericsson.android.camera.configuration.parameters.ParameterValue boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.sonyericsson.android.camera.view.settings.executor.SettingExecutorFactory
+----------------------------
+
+createSettingChangeExecutor(android.content.Context com.sonyericsson.android.camera.configuration.ParameterKey com.sonyericsson.android.camera.configuration.parameters.ParameterValue com.sonyericsson.android.camera.parameter.ParameterManager com.sonyericsson.android.camera.view.settings.SettingController boolean )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.activity.BaseExtendedActivity
+----------------------------
+
+isPreinstalledApp()
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonyericsson.cameracommon.capturearea.CaptureArea
+----------------------------
+
+updateView()
+  Unable to fully structure code
+onTouch(android.view.View android.view.MotionEvent )
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.opengl.ExtendedGlSurfaceView
+----------------------------
+
+loadShaderSourceCodesFrom(android.content.Context int[] )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.commonsetting.CommonSettings
+----------------------------
+
+loadUnSelectableSettings()
+  Unable to fully structure code
+load()
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonyericsson.cameracommon.commonsetting.values.SaveDestination
+----------------------------
+
+getOptions(android.content.Context )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.contentsview.DataLoader
+----------------------------
+
+call()
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonyericsson.cameracommon.contentsview.MpoUtils
+----------------------------
+
+getType(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 18[FORLOOP]
+
+
+com.sonyericsson.cameracommon.contentsview.ThumbnailFactory
+----------------------------
+
+createMicroThumbnail(com.sonyericsson.cameracommon.contentsview.contents.Content$ContentInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[CASE]], but top level block is 1[TRYBLOCK]
+createVideoThumbnail(android.content.Context android.net.Uri )
+  Loose catch block
+createVideoThumbnail(java.lang.String )
+  Loose catch block
+
+
+com.sonyericsson.cameracommon.interaction.TouchActionTranslator
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.launcher.AlbumLauncher
+----------------------------
+
+onResume()
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.mediasaving.DcfPathBuilder
+----------------------------
+
+assignImageFilePath(int android.content.ContentResolver )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+getVideoPath(android.content.Context java.lang.String )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.mediasaving.StorageController
+----------------------------
+
+showOrClearStorageErrorPopup(com.sonyericsson.cameracommon.mediasaving.StorageController$StorageState )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.mediasaving.StorageAutoSwitchController
+----------------------------
+
+showOrClearStorageErrorPopup(com.sonyericsson.cameracommon.mediasaving.StorageController$StorageState )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.mediasaving.StorageUtil
+----------------------------
+
+getPathFromUri(android.content.Context android.net.Uri )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[CATCHBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+com.sonyericsson.cameracommon.mediasaving.location.GeotagManager
+----------------------------
+
+startLocationUpdates(boolean boolean )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.review.ReviewScreen
+----------------------------
+
+setupScreen(android.app.Activity android.net.Uri byte[] java.lang.String java.lang.String android.graphics.Rect int int boolean )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+
+
+com.sonyericsson.cameracommon.setting.controller.SettingDialogStack
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.sound.SoundPlayer
+----------------------------
+
+playSound(android.content.Context int )
+  Loose catch block
+
+
+com.sonyericsson.cameracommon.utility.AccessibilityEventFilter
+----------------------------
+
+onRequestSendAccessibilityEvent(android.view.ViewGroup android.view.View android.view.accessibility.AccessibilityEvent )
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonyericsson.cameracommon.utility.CommonUtility
+----------------------------
+
+dumpFile(byte[] java.lang.String )
+  Unable to fully structure code
+getApplicationType(android.content.Context )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.utility.FaceDetectUtil
+----------------------------
+
+overwriteTaggedRectangle(java.util.HashMap<java.lang.String, com.sonyericsson.cameracommon.focusview.TaggedRectangle> java.lang.String com.sonyericsson.cameracommon.focusview.FaceInformationList )
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonyericsson.cameracommon.utility.ImageLoader
+----------------------------
+
+load()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+com.sonyericsson.cameracommon.utility.MeasurePerformance
+----------------------------
+
+writeFile(java.lang.String )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.viewfinder.DefaultLayoutPatternApplier
+----------------------------
+
+apply(com.sonyericsson.cameracommon.viewfinder.LayoutPattern )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.viewfinder.capturingmode.CapturingModeButton
+----------------------------
+
+onTouch(android.view.View android.view.MotionEvent )
+  Unable to fully structure code
+
+
+com.sonyericsson.cameracommon.wificontroller.negotiation.WifiNetworkEnvironment
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.gltextureview.GLTextureView
+----------------------------
+
+onSurfaceTextureDestroyed(android.graphics.SurfaceTexture )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 18[CATCHBLOCK]
+
+
+com.sonymobile.cameracommon.gltextureview.ExtendedGLTextureView
+----------------------------
+
+loadShaderSourceCodesFrom(android.content.Context int )
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.cameraparametervalidator.CameraParameterValidator
+----------------------------
+
+loadCheckList(android.content.Context java.util.List<com.sonymobile.cameracommon.cameraparametervalidator.CameraParameterValidator$ValidationCase> int )
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.media.encoder.EncodedDataWriteTask
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.media.encoder.MediaEncoder
+----------------------------
+
+waitToCompleteEncoding()
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.media.recorder.MediaRecorderController
+----------------------------
+
+setupParameters(android.content.Context android.media.MediaRecorder com.sonymobile.cameracommon.media.recorder.RecorderParameters )
+  Unable to fully structure code
+awaitFinish()
+  Unable to fully structure code
+call()
+  Loose catch block
+
+
+com.sonymobile.cameracommon.media.utility.AudioResourceChecker
+----------------------------
+
+isAudioResourceAvailableCheckWithAudioRecord()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.sonymobile.cameracommon.media.utility.BackgroundWorker
+----------------------------
+
+<init>(java.lang.String )
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.media.utility.ByteDataSource
+----------------------------
+
+pushToEncoder(java.nio.ByteBuffer java.nio.ByteBuffer[] int boolean )
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.photoanalyzer.faceidentification.FaceIdentificationUtil
+----------------------------
+
+isFaceIdentificationSupported(android.content.Context )
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.remotedevice.RemoteDevice
+----------------------------
+
+getNewAvailabaleApiSetFrom(org.json.JSONObject )
+  Exception : java.util.ConcurrentModificationException
+loadDefaultCapability()
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.remotedevice.RemoteDeviceScanner
+----------------------------
+
+requestOnBack(com.sonymobile.cameracommon.remotedevice.RemoteDeviceScanner$OnRemoteDeviceScannedCallback java.util.concurrent.ExecutorService int )
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.remotedevice.event.EventObserverController
+----------------------------
+
+loading()
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+
+
+com.sonymobile.cameracommon.remotedevice.stream.EvfStreamController
+----------------------------
+
+doOpen()
+  Loose catch block
+
+
+com.sonymobile.cameracommon.remotedevice.util.Util
+----------------------------
+
+get(java.lang.String java.lang.String )
+  Exception : java.lang.IllegalStateException: Backjump on non jumping statement [] lbl64 : TryStatement: try { 10[TRYBLOCK]
+
+post(java.lang.String java.lang.String java.lang.String )
+  Exception : java.lang.IllegalStateException: Backjump on non jumping statement [] lbl99 : TryStatement: try { 15[TRYBLOCK]
+
+
+
+com.sonymobile.cameracommon.remotedevice.util.XmlElement
+----------------------------
+
+doParse(org.xmlpull.v1.XmlPullParser )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+
+
+com.sonymobile.cameracommon.wifip2pcontroller.communication.UniCastSession
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+run()
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonymobile.cameracommon.wifip2pcontroller.communication.UniCastStream
+----------------------------
+
+run()
+  Unable to fully structure code
+run()
+  Exception : java.util.ConcurrentModificationException
+
+
+com.sonymobile.cameracommon.wifip2pcontroller.negotiation.NetworkStateMachine
+----------------------------
+
+handleNodeSetChanged()
+  Unable to fully structure code
+
+
+com.sonymobile.cameracommon.wifip2pcontroller.util.Util
+----------------------------
+
+checkDiffWithMacAddressAndGetOnlyIncludedInLeftSet(java.util.Set<com.sonymobile.cameracommon.wifip2pcontroller.common.NetworkNode> java.util.Set<com.sonymobile.cameracommon.wifip2pcontroller.common.NetworkNode> )
+  Exception : java.util.ConcurrentModificationException

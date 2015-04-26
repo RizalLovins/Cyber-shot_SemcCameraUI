@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.android.camera.view.TouchGuideView android:id="@id/touch_guide_view" android:focusable="true" android:focusableInTouchMode="true" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/touch_guide_view_left" android:background="@drawable/cam_touch_capturing_guide_gray_side_icn" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@id/touch_guide_view_center" android:background="@drawable/cam_touch_capturing_guide_gray_middle_icn" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:layout_toLeftOf="@id/touch_guide_view_right" android:layout_toRightOf="@id/touch_guide_view_left">
+        <RelativeLayout android:id="@id/touch_guide_rotation_base" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/touch_guide_image_view" android:background="@drawable/cam_touch_capturing_guide_icn" android:layout_width="@dimen/touch_capturing_guide_icon_width" android:layout_height="@dimen/touch_capturing_guide_icon_height" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/touch_guide_text_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/touch_capturing_guide_text_margin_top" android:layout_below="@id/touch_guide_image_view" android:layout_centerHorizontal="true" style="@style/OnScreenTextDropShadow" />
+            <TextView android:id="@id/touch_guide_text_view_portrait" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/touch_capturing_guide_text_margin_top" android:layout_below="@id/touch_guide_image_view" android:layout_centerHorizontal="true" style="@style/OnScreenTextDropShadow" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/touch_guide_view_right" android:background="@drawable/cam_touch_capturing_guide_gray_side_icn" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:layout_alignParentRight="true" />
+</com.sonyericsson.android.camera.view.TouchGuideView>
